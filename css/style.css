@@ -1,3 +1,10 @@
-.col {
-    max-height:
+[class^="col"] {
+    max-height: 200px;
 }
+
+.img-fluid {
+    max-height: 100%;
+}
+ body {
+    background-color: lightsalmon;
+ }

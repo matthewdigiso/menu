@@ -1,10 +1,23 @@
-[class^="col"] {
-    max-height: 200px;
+/* Custom CSS for menu */
+.menu-item {
+    margin-bottom: 20px; /* Add some space between each menu item */
 }
 
-.img-fluid {
-    max-height: 100%;
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the menu item images */
 }
- body {
-    background-color: lightsalmon;
- }
+
+.menu-item h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.menu-item p.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5733; /* Optional: Adjust price color */
+}
+
